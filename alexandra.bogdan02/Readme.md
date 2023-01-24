@@ -17,7 +17,7 @@ Am inclus de asemenea și soluția banală în analiză, pentru a mă ajuta la v
 
 Ierarhia fișierelor din arhivă
 -
-**  Directorul in/ **- acest fișier conține testele de intrare generate cu ajutorul programului conținut in fișierul generator.cpp. Fiecare fișier este de forma testX,in, unde X reprezintă indexul testului detaliat în documentul pdf.
+* Directorul in/- acest fișier conține testele de intrare generate cu ajutorul programului conținut in fișierul generator.cpp. Fiecare fișier este de forma testX,in, unde X reprezintă indexul testului detaliat în documentul pdf.
 Fiecare test conține pe prima linie, N (numărul de elemente din secvență), M (numărul de interogări), pe a doua linie, N elemente (numere întregi - reprezentabile pe 32 biti) și pe următoarele  linii, câte o pereche de numere întregi  reprezentând poziții din secvență.
 Pentru a adăuga noi teste pentru verificare, adăugati testul cu numărul asociat(spre ex. următorul test va fi de forma "test21.in").
 ** Directorul out/ ** - contine rezultatele rularii fisierelor de intrare. Fiecare fișier este de forma testX,out, unde X reprezintă indexul testului detaliat în documentul pdf.
